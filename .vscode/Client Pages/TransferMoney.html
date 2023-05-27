@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Money</title>
+    <link rel="stylesheet" href="TransferMoneyCss.css">
+    
+</head>
+<body>
+    <div id="reminder">
+        <h1 onmouseover='speak(this.textContent)'>Here you put reminders</h1>
+        <button onmouseover='speak(this.textContent)'> OK </button>
+    </div>
+    <p id="logoname">Bank</p>
+    <div class="cont">
+        <h1 id="welcome" onmouseover='speak(this.textContent)'> Transfer Money </h1>
+        <br>
+        <h3 id="Name" onmouseover='speak(this.textContent)'>Your Name :</h3>   <input id="name" onclick="record('name')" onmouseover='speak(this.textContent)'>
+        <br>
+        <h3 id="YourIBAN" onmouseover='speak(this.textContent)'>Your IBAN:</h3> <input type="text" id="yourIBAN" onclick="record('yourIBAN')" onmouseover='speak(this.textContent)'>
+        <br>
+        <h3 id="Amount" onmouseover='speak(this.textContent)'>Amount:</h3> <input type="number" id="amount" onclick="record('amount')"onmouseover='speak(this.textContent)'>
+        <br>
+        <h3 id="AccountName" onmouseover='speak(this.textContent)'>The Other Account Name :</h3>  <input  id="accountName" onclick="record('accountName')" onmouseover='speak(this.textContent)'>
+        <br>
+        <h3 id="AccountIBAN" onmouseover='speak(this.textContent)'>The Other Account IBAN :</h3>   <input id="IBAN" onclick="record('IBAN')" onmouseover='speak(this.textContent)'>
+        <br>
+        <button id="Submit" onclick="transferMoney()" onmouseover='speak(this.textContent)'>Submit</button>
+    </div>
+    
+    <script src="C:\Users\dell\OneDrive\Desktop\SE Project Test\.vscode\Client.js"></script>
+</body>
+</html>

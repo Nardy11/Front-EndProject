@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Points</title>
+    <link rel="stylesheet" href="PointsCss.css">
+    
+</head>
+<body>
+    <div id="reminder" >
+        <h1 onmouseover='speak(this.textContent)'>Here you put reminders</h1>
+        <button onmouseover='speak(this.textContent)'> OK </button>
+    </div>
+    <p id="logoname">Bank</p>
+    <br>
+    <h1 onmouseover='speak(this.textContent)'>My Points :</h1>
+    <h1 id="points" onmouseover='speak(this.textContent)'>5000</h1>
+    <br>
+    <div class="Vouchers">
+        <button id="bt1" onclick="ChoosedVouchers(1)" onmouseover='speak(this.textContent)'> 5000 Points   5€ from H&M   </button>
+        <button id="bt2" onclick="ChoosedVouchers(2)" onmouseover='speak(this.textContent)'> 10000 Points  10€ from H&M </button>
+        <button id="bt3" onclick="ChoosedVouchers(3)" onmouseover='speak(this.textContent)'> 15000 Points  15€ from H&M </button>
+        <button id="bt4" onclick="ChoosedVouchers(4)" onmouseover='speak(this.textContent)'> 30000 Points 100€ from H&M </button>
+    </div>
+    <br>
+    <br>
+    <button type="submit" id="buy" onclick="BuyWithPoints()"onmouseover='speak(this.textContent)'>Buy Voucher</button>
+    <script src="C:\Users\dell\OneDrive\Desktop\SE Project Test\.vscode\Client.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Reminder</title>
+    <link rel="stylesheet" href="SetReminderCss.css">
+    
+</head>
+<body>
+    <div id="reminder">
+        <h1 onmouseover='speak(this.textContent)'>Here you put reminders</h1>
+        <button onmouseover='speak(this.textContent)'> OK </button>
+    </div>
+    <p id="logoname">Bank</p>
+    <div class="reminderdetails">
+        <header onmouseover='speak(this.textContent)'>Set Reminders</header>
+        <input type="datetime-local" id="Reminder" onmouseover='speak(this.textContent)'>
+        <br>
+        <input type="text" id="Reason" placeholder="Reason" onclick="record('Reason')" onmouseover='speak(this.textContent)'>
+    </div>
+    <button id="submit" onclick="AddReminder()" onmouseover='speak(this.textContent)'>Add Reminder</button>
+    <div class="Reminders">
+        <h1 onmouseover='speak(this.textContent)'> My Reminders </h1>
+        <hr>
+        <ol type="I" id="remind">
+            <li onmouseover='speak(this.textContent)'>reminder ----> reason </li> <br>
+        </ol>
+    </div>
+    <script src="C:\Users\dell\OneDrive\Desktop\SE Project Test\.vscode\Client.js"></script>
+</body>
+</html>

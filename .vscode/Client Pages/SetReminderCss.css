@@ -1,0 +1,132 @@
+*{  text-align: center;
+    background: linear-gradient(45deg, rgba(145,5,185,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+   }
+   .reminderdetails{
+    display: contents;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+
+}
+#Reminder{
+    border: none;
+    border-radius: 50%;
+    height: 180px;
+    background: #fff;
+    margin: 2%;
+    box-shadow: 5px 5px 5px gray;
+}
+#Reason{
+    border: none;
+    margin: 2%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20%;
+
+
+}
+   #logoname{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #fff;
+    text-transform: uppercase;
+}
+.Reminders{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: medium;
+    border-radius: 25px;
+    color: black;
+    box-shadow: 5px 5px 10px #525252;
+    background: rgba(253, 255, 255, 0.604);
+    position: sticky;
+
+    }
+hr{
+    width:auto;
+    height: 2px;
+    background: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    position: sticky;
+
+}   
+h1,h4,h2,h3{
+    background: transparent;
+    position: sticky;
+
+}
+ol,li{
+    background: transparent;
+    position: sticky;
+    font-size: x-large;
+    margin: 5%;
+    
+}
+#submit{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background:white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    margin-top: 5%;
+    position: sticky;
+    left: 45%;
+
+}
+
+#reminder{
+    margin-top: 2%;
+    right: 1%;
+    width: 20%;
+    font-size: x-large;
+    border-radius: 25px;
+    color: black;
+    border:#888888;
+    box-shadow: 5px 5px 5px #888888;
+    background: rgba(253, 255, 255, 0.604);
+    position: fixed;
+    visibility: hidden;
+}
+#reminder h1{
+     background: transparent;
+
+}
+#reminder button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background:white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+}

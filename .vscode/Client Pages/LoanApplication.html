@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Application</title>
+<link rel="stylesheet" href="LoanApplicationCss.css">
+
+</head>
+<body>
+    <div id="reminder">
+        <h1 onmouseover='speak(this.textContent)'>Here you put reminders</h1>
+        <button onmouseover='speak(this.textContent)'> OK </button>
+    </div>
+    <p id="logoname">Bank</p>
+    <hr>
+    <br>
+    <header onmouseover='speak(this.textContent)'>Loan Application</header>
+    <br>
+    <hr>
+    <div id="Status">
+        <h1 onmouseover='speak(this.textContent)'>Loan Status : </h1>
+        <h1 id="statuss" onmouseover='speak(this.textContent)'>no request</h1>
+    </div>
+    <label for="Loanrequested" onmouseover='speak(this.textContent)'>Loan amount requested : <input  name="loan_amount" placeholder="€1000" id="loan_amount" onclick="record('loan_amount')" onmouseover='speak(this.textContent)'></label>
+    <br>
+    <br>
+    <textarea name="Loan_Request" id="Loan_Request" cols="30" rows="10" placeholder=" Type what is your case ? and why do you need this Loan for? " onclick="record('Loan_Request')" onmouseover='speak(this.textContent)'></textarea>
+    <br>
+<br>
+<button type="submit" id="submit" onclick="LoanApplication()" onmouseover='speak(this.textContent)'>Submit</button>
+<script src="C:\Users\dell\OneDrive\Desktop\SE Project Test\.vscode\Client.js"></script>
+</body>
+</html>

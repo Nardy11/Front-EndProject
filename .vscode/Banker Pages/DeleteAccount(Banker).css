@@ -1,0 +1,60 @@
+*{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 24%, #97D9E1 100%);
+    background-attachment: fixed;
+}
+#logoname{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #fff;
+    text-transform: uppercase;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    background: black;
+    margin: auto;
+    position: sticky;
+}
+#delete_Request2{
+    width: 350px;
+    height: 250px;
+    border: none;
+    background: rgba(253, 255, 255, 0.604);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    position: sticky;
+
+}
+#Send{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background:white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    position: sticky;
+
+}

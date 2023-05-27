@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+<link rel="stylesheet" href="Report(Banker).css">
+
+</head>
+<body>
+    <div id="reminder">
+        <h1 onmouseover='speak(this.textContent)'>Here you put reminders</h1>
+        <button onmouseover='speak(this.textContent)'> OK </button>
+    </div>
+    <p id="logoname">Bank</p>
+    <hr>
+    <br>
+    <h1 onmouseover='speak(this.textContent)'>Report</h1>
+    <br>
+    <hr>
+    <br>
+    <textarea name="Report_Request1" id="Report_Request1" cols="30" rows="10" placeholder="what is your case ? " onclick="record('Report_Request1')" onmouseover='speak(this.textContent)'> </textarea>
+    <br>
+    <br>
+    <button  id="Send" onclick="Report()" onmouseover='speak(this.textContent)'>Send</button>
+    <script src="C:\Users\dell\OneDrive\Desktop\SE Project Test\.vscode\Client.js"></script>
+</body>
+</html>

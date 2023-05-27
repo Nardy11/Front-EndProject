@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="SignInCss.css">
+</head>
+<body>
+    <p id="logoname">Bank</p>
+    <h1 onmouseover='speak(this.textContent)'>Name:</h1>
+    <input type="text" id="signedname" name="name" placeholder="Enter Name" onclick="record('signedname')" onmouseover='speak(this.textContent)'>
+    <h1>Password:</h1>
+    <input type="password" id="signedpassword" name="password" placeholder="Enter Password" onclick="record('signedpassword')" onmouseover='speak(this.textContent)'>
+    <br>
+    <button onclick= "SignedIn()" id="signinbutton" onmouseover='speak(this.textContent)'>Sign in</button>
+    <button onclick="window.location.href='Registeration.html'" onmouseover='speak(this.textContent)'>Register</button>
+    <script src="Client.js"></script>
+
+</body>
+</html>

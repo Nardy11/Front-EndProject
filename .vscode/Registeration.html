@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registeration</title>
+        <link rel="stylesheet" href="RegisterationCSS.css">
+        
+    </head>
+    <body>
+        <p id="logoname">Bank</p>
+        <div class="cont">
+            <h1 id="welcome" onmouseover='speak(this.textContent)'> Welcome to GUC Online Banking system </h1>
+            <br>
+            <h3 id="Name" onmouseover='speak(this.textContent)'>Name :</h3>   <input id="regname" onclick="record('regname')"onmouseover='speak(this.textContent)'>
+            <br>
+            <h3 id="Password" onmouseover='speak(this.textContent)'>Password:</h3> <input type="password" id="regpassword" onclick="record('regpassword')"onmouseover='speak(this.textContent)'>
+            <br>
+            <h3 id="Address" onmouseover='speak(this.textContent)'>Address :</h3>   <input id="regaddress" onclick="record('regaddress')"onmouseover='speak(this.textContent)'>
+            <br>
+            <h3 id="Phone" onmouseover='speak(this.textContent)'>Phone Number:</h3>  <input  id="regphone" onclick="record('regphone')"onmouseover='speak(this.textContent)'>
+            <br>
+            <h3 id="Email" onmouseover='speak(this.textContent)'>Email:</h3> <input type="email" id="regemail" onclick="record('regemail')"onmouseover='speak(this.textContent)'>
+            <br>
+            <h3 id="Gender" onmouseover='speak(this.textContent)'>Gender:</h3>
+            <div class="input-group">
+                <label for="male" id="Male" onmouseover='speak(this.textContent)'>
+                    <input type="radio" name="reggender" value="male" id="regmale" onmouseover='speak(this.textContent)'> Male</label>
+                <label for="female" id="Female" onmouseover='speak(this.textContent)'>
+                <input type="radio" name="reggender" value="female" id="regfemale" onmouseover='speak(this.textContent)'> Female</label>
+            </div>
+            <br>
+                    <h3 id="Date" onmouseover='speak(this.textContent)'>Date of birth:</h3>
+                    <input type="date" id="regdate" onmouseover='speak(this.textContent)'>
+                    <br>
+                    <button id="signin" onclick="window.location.href='SignIn.html'" onmouseover='speak(this.textContent)'>Sign in</button>
+                    <button id="register" onclick="Register()" onmouseover='speak(this.textContent)'>Register</button>
+                </div>
+                
+                <script src="C:\Users\dell\OneDrive\Desktop\SE Project Test\.vscode\Client.js"></script>
+            </body>
+            </html>

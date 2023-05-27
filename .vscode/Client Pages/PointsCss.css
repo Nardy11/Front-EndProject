@@ -1,0 +1,106 @@
+*{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: #D9AFD9;
+    background: linear-gradient(45deg, rgba(145,5,185,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+}
+#logoname{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #fff;
+    text-transform: uppercase;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    background: black;
+    margin: auto;
+    position: sticky;
+}
+#Report_Request{
+    width: 350px;
+    height: 250px;
+    border: none;
+    background: rgba(253, 255, 255, 0.604);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    position: sticky;
+
+}
+#bt1,#bt2,#bt3,#bt4{
+    margin: 2%;
+    width: 240px;
+    height: 140px;
+    border: none;
+    background: rgba(253, 255, 255, 0.604);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    position: sticky;
+}
+#buy{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background:white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    position: sticky;
+    
+}
+#reminder{
+    visibility: hidden;
+    margin-top: 2%;
+    right: 1%;
+    width: 20%;
+    font-size: x-large;
+    border-radius: 25px;
+    color: black;
+    border:#888888;
+    box-shadow: 5px 5px 5px #888888;
+    background: rgba(253, 255, 255, 0.604);
+    position: fixed;
+}
+#reminder h1{
+     background: transparent;
+
+}
+#reminder button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background:white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    
+}
