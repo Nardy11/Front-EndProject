@@ -26,23 +26,57 @@
                 client.date = document.getElementById("regdate").value;
                 client.owncard=false;
                 var nameUsed = false;
+                if(client.password.length>=8){
                 for ( i = 0; i < ClientsList.length; i++) {
                     if (ClientsList[i].name === client.name) {
                         nameUsed = true;
                     }
                 }
-                if (!nameUsed) {
+                capital=0;
+                small=0;
+                num=0;
+                char=false;
+                const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+                if(specialChars.test(client.password)){
+                    char=true;
+                    console.log(" found ")
+                }
+                for(i=0;i<client.password.length;i++){
+                    if(!isNaN(client.password[i])){
+                            num++;
+                            console.log(client.password[i] +" num ")
+                    }else{
+                        if(client.password[i].toUpperCase() === client.password[i]&&!specialChars.test(client.password[i])){
+                            capital++;
+                            console.log(client.password[i] +" cap ")
+                    }
+                    else{
+                        if(client.password[i].toLowerCase() === client.password[i]&&!specialChars.test(client.password[i])){
+                            small++;
+                            console.log(client.password[i] +" small ")
+                    }
+                    }
+                    }
+                }
+                if ((!nameUsed)) {
+                    if(num>0&&capital>0&&small>0&&char==true){
                     ClientsList.push(client);
                     window.location.href='SignIn.html';
+                }else{
+                    alert("contain at least one capital letter, one small letter, one number, and one special character.");
                 }
+            }
                 else{
                     alert("this username exists")
+                }}
+                else{
+                    alert("this password is too short");
+                    window.location.href='Registeration.html';
                 }
                 //stores the information on the arrays 
             } else
                 alert("fill all the requirements")
     }
-
 
     function SignedIn(){
     if(document.getElementById("signedname").value!="" &&
