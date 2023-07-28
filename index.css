@@ -1,0 +1,42 @@
+*{
+    background: linear-gradient(45deg, rgba(145,5,185,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+    text-align: center;
+}
+#logoname{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #fff;
+    text-transform: uppercase;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    background: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 20px;
+}
+#signedname,#signedpassword{
+    background: #fff;
+    color: black;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    position: sticky;
+}
